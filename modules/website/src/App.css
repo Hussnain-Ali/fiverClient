@@ -1,0 +1,151 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.sidebar-main{
+  height: 100%;
+  background-color: black;
+}
+.sidebar-icon{
+  margin-bottom: 10%;
+}
+.side-text{
+  color: white;
+  padding-left: 10px;
+}
+.table-row1{
+  background-color: rgb(0, 0, 0);
+
+}
+.table-heading{
+  font-weight: 900;
+  word-spacing: 2;
+  color: white;
+  display: inline;
+}
+
+.text-56{
+  display: inline;
+  background-color:white;
+  color: rgb(0, 0, 0);
+  border-radius:20%
+}
+th{
+  color:rgb(151, 147, 147);
+  border-top:1px solid gray;
+ padding: 6px 0px 6px 0px;
+}
+td{
+   padding: 10px 0px 10px 0px;
+   color:white;
+  border-top:.5px solid white;
+  font-weight: 700;
+  font-size: 12px;
+  }
+.table-btn{
+    background-color: hsl(242deg 42% 52%);
+    border-radius: 4px;
+    border-bottom: 0px;
+    cursor: pointer;
+    width: 78%;
+    font-weight: 600;
+    height: 23px;
+    text-align: center;
+    
+}
+.play-btn{
+  margin-left: 20px;
+  display: inline;
+}
+form label{
+    color: #868d8d;
+    padding: 10px 0px 6px 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.form-shape{
+ margin-top: 13%;
+    border-radius: 15px;
+    margin-right: 20px;
+    background-color: black;
+    padding: 20px 0px 20px 0px;
+}
+
+.form-control{
+    width: 93%;
+    background-color: rgb(37, 45, 61);
+    font-size: .7rem;
+    font-weight: 600;
+    color: #94a8bd;
+    border: none !important;
+
+}
+.form-control:focus{
+  background-color:rgb(37, 45, 61) ;
+  color:#868d8d ;
+}
+
+.btn-primary{
+    margin: 0 auto;
+    background-color: rgb(37, 45, 61);
+    font-size: 12px;
+    width: 34%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-color: rgb(37, 45, 61);
+}
+.btn{
+  margin-top: 10%;
+}
+.css-k7r2wc{
+  width: 93% !important;
+  color: rgb(184, 182, 182);
+}
+.css-k7r2wc:hover, .css-k7r2wc[data-hover] {
+    border-color: #252d3d !important;
+    background-color:#252d3d !important ;
+}
+.css-k7r2wc:hover, .css-k7r2wc {
+    border-color: #252d3d !important;
+    background-color:#252d3d !important ;
+}
+.css-k7r2wc >option, .css-k7r2wc >optgroup {
+    background: var(--chakra-colors-white);
+    color: black;
+}
